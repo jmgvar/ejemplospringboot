@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  users:
+    image: springboot-demo:latest
+    ports:
+      - "9090:8080"
+  departments:
+    image: springboot-demo:latest
+    ports:
+      - "9091:8080"
+       
