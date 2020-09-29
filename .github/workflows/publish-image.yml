@@ -24,6 +24,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Push to Docker Hub
-        uses: docker/build-push-action@v1
-        with:
-          repository: docker.pkg.github.com/jmgvar/ejemplospringboot/springboot-demo:latest 
+        uses: trentjones21/github-docker@master
